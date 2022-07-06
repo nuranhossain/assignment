@@ -1,0 +1,305 @@
+
+
+body{
+    margin: 0;
+}
+
+.display-area{
+    background-image: url(img/donation.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    min-width: 1024px;
+
+}
+
+.title-area{
+    width: 826px;
+    text-align: center;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin: auto;
+    padding-top: 170px;
+    padding-bottom: 170px;
+
+}
+
+.title-area h1{
+    color: white;
+    font-size: 65px;
+    margin-top: 0;
+    padding-top: 160px;
+    margin-bottom: 40px;
+    
+}
+
+
+
+.title-area p{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+
+.title-area a{
+    color: white;
+    padding: 17px 50px;
+    background-color: #FF5959;
+    border: 1px solid #FF5959;
+    margin-top: 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.title-area a:hover {
+    background-color: #FFEEEE;
+    transition: 0.5s;
+    border: 1px solid #FF5959;
+    color: #FF5959;
+}
+
+.donate-area{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.title h1{
+    font-size: 45px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.title p {
+    color: #707070;
+    font-size: 18px;
+    width: 630px;
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+.pay a {
+    color: #707070;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 20px;
+    background-color: #FAFAFA;
+    padding: 17px 35px;
+    transition: 0.5s;
+    border: 1px solid #FAFAFA;
+
+    border-radius: 5px;
+}
+
+.pay a:hover{
+    border: 1px solid orangered;
+    color: #FF5959;
+}
+
+.sub-title h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.sub-title p {
+    color: #707070;
+    font-size: 18px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.span {
+    height: 2px;
+    width: 750px;
+    background-color: #707070;
+    display: inline-block;
+    margin-bottom: 40px;
+    overflow: visible;
+
+}
+
+.donate-button a {
+    padding: 16px 15px;
+    background-color: #FF5959;
+    text-decoration: none;
+    color: #FAFAFA;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.donate-button a:hover{
+    background-color: #FFEEEE;
+    border: 1px solid #FF5959;
+    color: #FF5959;
+}
+
+.donate-plan {
+    margin-bottom: 150px;
+    margin-top: 150px;
+ }
+
+
+
+.plan-area {
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.plan {
+    padding: 60px 30px;
+    
+    margin-left: 20px;
+    
+}
+
+.plan h1{
+    font-size: 24px;
+}
+
+.plan p  {
+    color: #707070;
+    font-size: 18px;
+}
+
+.plan-1{
+    background-color: #4f9da625;
+}
+
+.plan-2{
+    background-color: #ff59592a;
+}
+
+.plan-3{
+    background-color: rgba(255, 255, 0, 0.103);
+}
+
+.contribute{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 150px;
+}
+
+.contribute-area{
+    display: flex;
+  
+    justify-content: space-around;
+}
+
+.contribute-thumb{
+    margin-left: 200px;
+}
+
+.detail {
+    width: 450px;
+    margin-right: 80px;
+}
+
+.detail p {
+
+}
+
+.detail a {
+    padding: 16px 20px;
+    background-color: #FF5959;
+    text-decoration: none;
+    color: #FAFAFA;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: 0.4s;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.detail a:hover{
+    background-color: #FFEEEE;
+    border: 1px solid #FF5959;
+    color: #FF5959;
+}
+
+.thumb-2{
+    margin-left: -80px;
+}
+
+.update-area{
+    text-align: center;
+}
+
+.update-area h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.update-area p {
+    width: 690px;
+    color: #707070;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.input{
+    background-color: #D9D9D9;
+    padding-top: 7px;
+    padding-left: 5px;
+    padding-bottom: 7px;
+    padding-right: 50px;
+    border: none;
+    border-radius: 5px;
+    background-image: ;
+}
+.email-area{
+    text-align: center;
+    margin-bottom: 100px;
+    padding: 50px 180px;
+    background-color: #FFF4D6;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.email-area a {
+    padding: 3px 15px;
+    background-color: #FF5959;
+    text-decoration: none;
+    color: #FAFAFA;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: 0.4s;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.email-area a:hover{
+    background-color: #FFEEEE;
+    border: 1px solid #FF5959;
+    color: #FF5959;
+}
+
+
+::placeholder{
+    color: #707070;
+    margin-bottom: 10px;
+    font-size: 16px;
+
+}
+
+.footer{
+    text-align: center;
+    color: #FF5959;
+    width: 100%;
+    margin-bottom: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: black;
+}
+
+.footer p {
+    color: #D9D9D9;
+}
